@@ -30,6 +30,19 @@ const teamList = [
 ]
 
 //Stampare su console, per ogni membro del team, le informazioni di nome, ruolo e la stringa della foto
-console.log(teamList);
+
+for (let i = 0; i < teamList.length; i++) {
+    const element = teamList[i];
+    writeMember(element);
+}
+
+
+
+
+console.log(element);
+
+
+//Stampare le stesse informazioni su DOM sottoforma di stringhe
+
 
 
