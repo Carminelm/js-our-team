@@ -29,21 +29,7 @@ const teamList = [
 }
 ]
 
-
-
 //Stampare su console, per ogni membro del team, le informazioni di nome, ruolo e la stringa della foto
+console.log(teamList);
 
 
-function writeMember(teamMember){
-    const memberContainer = document.querySelector('.team-container');
-    memberContainer.innerHTML += `
-        <div class="team-card">
-        <div class="card-image">
-        <img src="img/${teamMember.image}" alt="${teamMember.name}"/>
-        </div>
-        <div class="card-text">
-        <h3>${teamMember.name}</h3>
-        <p>${teamMember.role}</p>
-        </div>
-    </div>`;
-}
