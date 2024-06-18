@@ -2,9 +2,10 @@
 
 const teamList = [
     {
-    name: 'Angela Caroll',
-    role: 'Chief Editor',
-    image: 'angela-caroll-chief-editor.jpg'
+        name: 'Angela Caroll',
+        role: 'Chief Editor',
+        image: 'angela-caroll-chief-editor.jpg'
+
 },
 {
     name: 'Walter Gordon',
