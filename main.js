@@ -34,7 +34,7 @@ const teamList = [
 for (let i = 0; i < teamList.length; i++) {
     const element = teamList[i];
 
-    console.log(element);
+    console.log(element.name,element.role,element.image);
 }
 
 
