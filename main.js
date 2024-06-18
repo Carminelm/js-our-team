@@ -33,13 +33,13 @@ const teamList = [
 
 for (let i = 0; i < teamList.length; i++) {
     const element = teamList[i];
-    writeMember(element);
+
+    console.log(element);
 }
 
 
 
 
-console.log(element);
 
 
 //Stampare le stesse informazioni su DOM sottoforma di stringhe
